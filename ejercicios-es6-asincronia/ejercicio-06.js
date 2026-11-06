@@ -1,5 +1,4 @@
 // ej 6.1
-
 const exams = [
   { name: "Yuyu Cabeza Crack", score: 5 },
   { name: "Maria Aranda Jimenez", score: 1 },
@@ -13,28 +12,22 @@ const exams = [
   { name: "Keanu Reeves", score: 10 },
 ];
 
-/* 
-
 const sumNotas = exams.reduce((acc, item) => (acc + item.score), 0);
 
-console.log(sumNotas);
- */
+console.log('Suma total de notas:', sumNotas);
 
 // ej 6.2
-
-/* 
 const sumAprobados = exams.reduce(
   (acc, item) => (item.score >= 5 ? (acc + item.score) : acc),
   0,
 );
 
-console.log(sumAprobados); */
+console.log('Suma de notas de aprobados:', sumAprobados);
 
 // ej 6.3
-
-/* const mediaNotas = exams.reduce(
+const mediaNotas = exams.reduce(
   (acc, item) => acc + item.score / exams.length,
   0,
 );
 
-console.log(mediaNotas.toFixed(1)); */
+console.log('Nota media:', mediaNotas.toFixed(1));

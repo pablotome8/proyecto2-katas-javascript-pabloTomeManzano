@@ -12,4 +12,4 @@ function swap(array,index1,index2) { // fantasticfour,0,2
     array[index2] = temporal;        // 2 vale 0
     console.log(array);                     
 }
-swap(fantasticFour,0,2);s
+swap(fantasticFour,0,2);
